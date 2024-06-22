@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    height: 900px;
+    width: 100%;
+    background-image: url("main_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.name{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.welcome{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+
+}
+
+.know-more{
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 80px;
+    color: white;
+    border: none;
+
+    
+}
+
+.know-more :hover{
+    opacity: 0.6px;
+    /* cursor: pointer; */
+}
+
+.link{
+    color: white;
+    
+}
